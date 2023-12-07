@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: rgb(21, 9, 9);
+}
+
+.container{
+    width: 600px;
+    height: 500px;
+    background-image: url(images/christmas-1869902_640.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 10px auto;
+    border-radius: 9px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 1px;
+    /* border-radius: 4px; */
+}
+
+.ro1{
+    rotate: 2deg;
+}
+
+.ro2{
+    rotate: 45deg;
+}
+
+.ro3{
+   rotate: 30deg; 
+}
+
+.ro4{
+    rotate: -2deg;
+}
+
+.ro5{
+    rotate: 75deg;
+}
+
+.ro6{
+    rotate: 180de;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    margin: 0 0 20px 90px;
+    font-weight: 700;
+    line-height: 1em;
+    font-size: 20px;
+}
+
+.color{
+    color: gold;
+    margin-left: 4px;
+}
+
+.merry{
+    margin: 0 0 0 400px;
+    font-size: 27px;
+    opacity: 0.6;
+}
+
+.first{
+    font-size: 27px;
+    letter-spacing: .05em;
+    text-decoration: underline double #fff;
+}
+
+.second{
+    font-size: 24px;
+    letter-spacing: .04em;
+}
+
+.third{
+    color: gold;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fourth{
+    color: gold;
+    font-weight: 700;
+}
+
+.fifth{
+    color: gold;
+    margin-bottom: 35px;
+    margin-left: 250px;
+    padding: .2em;
+    background-color: #000;
+    width: 200px;
+    border-radius: 18px;
+    height: fit-content;
+}
+
+.contact{
+    color: goldenrod;
+    font-weight: 500;
+    margin: 0 0 0 400px;
+    text-decoration: underline;
+}
+
+
+
